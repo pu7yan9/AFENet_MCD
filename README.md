@@ -17,14 +17,21 @@ This is a PyTorch/GPU implementation of the paper [Adversarial Feature Equilibri
   pages={1-17},
 ```
 
-## Preparation
+## Requirements
+
+ - [ ] python  3.7.16
+ - [ ] torch  1.13.1
+ - [ ] torchvision  0.14.1
+ - [ ] opencv  4.7.0.72
+ - [ ] numpy  1.21.5
+ - [ ] pandas  1.3.5
 
 ### Dataset
 
-| Multimodal Datasets  | Download Link                                                                                      | Source                                                                             |
-|----------------------|----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| MT-Wuhan             | [Download](https://drive.google.com/file/d/1Q4-YJUEQAMgqy3FfQak-3VPsHSe5N1_f/view?usp=sharing)     | [Paper](https://www.sciencedirect.com/science/article/pii/S0303243422000952)       |
-| MT-HTCD              | [Download](https://drive.google.com/file/d/1Q4-YJUEQAMgqy3FfQak-3VPsHSe5N1_f/view?usp=sharing)     | [Paper](https://www.mdpi.com/2072-4292/13/18/3750)                                 |
+| Multimodal Dataset   | Download Link                                                                                         | Source                                                                             |
+|----------------------|-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| MT-Wuhan             | [Download](https://drive.google.com/file/d/1lNKmvO3VY5wOB6yWqBY6tbUid613yfpS/view?usp=drive_link)     | [Paper](https://www.sciencedirect.com/science/article/pii/S0303243422000952)       |
+| MT-HTCD              | [Download](https://drive.google.com/file/d/1CKvBX8gkOdrv-n_EVRTt379bqbGZ3svR/view?usp=drive_link)     | [Paper](https://www.mdpi.com/2072-4292/13/18/3750)                                 |
 
 ### Installation
 
