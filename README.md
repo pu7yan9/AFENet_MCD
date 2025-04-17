@@ -47,4 +47,7 @@ For convenience, our pre-trained models can be downloaded directly here:
 
 ## Usage
 
-### Training
+### Train and Test
+```python
+  python main.py
+```
