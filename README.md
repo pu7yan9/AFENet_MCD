@@ -1,4 +1,4 @@
-# AFENet
+# AFENet_MCD
 
 <p align="center">
   <img src="AFENet.png" width="100%">
