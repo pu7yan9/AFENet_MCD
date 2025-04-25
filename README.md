@@ -1,4 +1,4 @@
-# (AFENet_MCD) Adversarial Feature Equilibrium Network for Multimodal Change Detection in Heterogeneous Remote Sensing Images
+# Adversarial Feature Equilibrium Network for Multimodal Change Detection in Heterogeneous Remote Sensing Images
 
 <p align="center">
   <img src="AFENet.png" width="100%">
