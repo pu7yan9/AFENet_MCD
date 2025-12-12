@@ -462,7 +462,7 @@ class AFENet(nn.Module):
         fusion_5 = self.fu_5(feature_5_1, feature_5_2, fusion_4_d)
 
         # CD
-        up_4 = self.upconv_4(torch.cat((feature_5_1,feature_5_2), dim=1))
+        up_4 = self.upconv_4(fusion_5)
         up_4 = torch.cat((up_4, fusion_4), dim=1)
         cd_4 = self.deconv_4(up_4)
 
@@ -634,7 +634,7 @@ class AFENet_L(nn.Module):
         fusion_5 = self.fu_5(feature_5_1, feature_5_2, fusion_4_d)
 
         # CD
-        up_4 = self.upconv_4(torch.cat((feature_5_1,feature_5_2), dim=1))
+        up_4 = self.upconv_4(fusion_5)
         up_4 = torch.cat((up_4, fusion_4), dim=1)
         cd_4 = self.deconv_4(up_4)
 
